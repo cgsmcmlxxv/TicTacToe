@@ -26,7 +26,8 @@ client/2 :
 ---> PID: the client PID as reported from register_client/0<br/>
 ---> MESSAGE: client message to be processed; can be:<br/>
 ------> an integer: 10*line+column<br/>
-------> a string: name of the player (not used in this version)<br/>
+------> a string: sets name of the player (not used as ID in this version)<br/>
+------> 'whoami': retrieves the name of the client<br/>
 ------> 'quit': removes the client<br/>
 - returns the game status in human readable format
 
