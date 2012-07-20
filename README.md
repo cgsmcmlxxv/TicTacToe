@@ -34,7 +34,7 @@ client/2 :
 HOW TO PLAY
 ===========
 
-1. Load the module an Erlang shell.<br/>
+1. Load the module in an Erlang shell.<br/>
 2. One player should start the server with tictactoe:start_server().<br/>
 3. Use PID = tictactoe:register_client() to register a player and to hold his/her PID.<br/>
 4. Use tictactoe:client(PID,Number) to define your move.
