@@ -5,7 +5,7 @@ Simple tic-tac-toe game in Erlang.
 
 License at the top of the module.
 
-Modify the IP and PORT to play via network.
+Modify the IP and PORT variables to play it via network.
 
 EXPORTS
 =======
